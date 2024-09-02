@@ -1,0 +1,47 @@
+@SpringBootApplication: This annotation is used to mark the main class of a Spring Boot application. It enables auto-configuration, component scanning, and starts the Spring application context.
+
+@RestController: This annotation is used to create RESTful web services. It combines @Controller and @ResponseBody, indicating that the return value of a method should be serialized directly to the response body.
+
+@Controller: This annotation is used to mark a class as a Spring MVC controller. It handles HTTP requests and returns a response to the client.
+
+@Autowired: This annotation is used to automatically wire (inject) dependencies into a Spring bean. It can be applied to fields, constructors, and methods.
+
+@Service: This annotation is used to mark a class as a service component in Spring. It is typically used to define business logic or perform operations related to the application's domain.
+
+@GetMapping: This annotation is used to map an HTTP GET request to a specific method in a controller class. It is often used to retrieve data from the server.
+
+@PostMapping: This annotation is used to map an HTTP POST request to a specific method in a controller class. It is often used to submit data to the server.
+
+@PutMapping: This annotation is used to map an HTTP PUT request to a specific method in a controller class. It is often used to update existing data on the server.
+
+@DeleteMapping: This annotation is used to map an HTTP DELETE request to a specific method in a controller class. It is often used to delete data from the server.
+
+@Entity: This annotation is used to mark a class as a persistent entity in JPA (Java Persistence API). It represents a table in a database and each instance of the class represents a row in that table.
+
+@Id: This annotation is used to mark a field in an entity class as the primary key of the corresponding database table.
+
+@Transient: This annotation is used to mark a field in an entity class as not persistent. The field's value will not be stored in the database.
+
+@Column: This annotation is used to specify the mapping between a field and a column in the database table. It allows you to customize the column name, type, constraints, etc.
+
+@GeneratedValue: This annotation is used to define the generation strategy for a primary key field in an entity class. It automatically generates unique values for the field.
+
+@OneToOne: This annotation is used to define a one-to-one relationship between two entity classes. It is often used when one entity has a reference to another entity.
+
+@OneToMany: This annotation is used to define a one-to-many relationship between two entity classes. It is often used when one entity has a collection of references to other entities.
+
+@ManyToMany: This annotation is used to define a many-to-many relationship between two entity classes. It is often used when multiple instances of one entity can be associated with multiple instances of another entity.
+
+@ManyToOne: This annotation is used to define a many-to-one relationship between two entity classes. It is often used when multiple instances of one entity are associated with a single instance of another entity.
+
+@Bean: This annotation is used to indicate that a method in a Spring configuration class should be used to create and configure a bean. The bean is then registered in the Spring application context.
+
+@PathVariable: This annotation is used to bind a method parameter to a value extracted from a URL path. It is often used to capture dynamic parts of the URL.
+
+@RequestBody: This annotation is used to bind the HTTP request body to a method parameter in a controller class. It is often used to extract JSON or XML data from a request.
+
+
+
+
+
+
